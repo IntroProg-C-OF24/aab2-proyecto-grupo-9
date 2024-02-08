@@ -85,7 +85,7 @@ public class Cinemas {
             double precioBoletos = calcularPrecio(salaElegida, numBoletos, diaFuncion);
             
         System.out.print("\n¿Desea adquirir Snacks? (Si/No): ");
-        scanner.nextLine(); // Consumir el salto de línea anterior
+        scanner.nextLine(); 
         String respuestaSnacks = scanner.nextLine();
 
         if (respuestaSnacks.equalsIgnoreCase("Si")) {
